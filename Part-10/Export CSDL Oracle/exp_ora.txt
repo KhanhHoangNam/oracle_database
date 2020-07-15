@@ -1,0 +1,36 @@
+# EXPsid.par - EXPORT parameter file -
+
+# Execute this par file with the command:
+
+# exp system/manager@archives parfile=C:\Archives\EXPsid.par
+
+##   Always Export data using the Export utility of
+##   the lowest database version involved. 
+
+# The file to hold the export(check disk space on this drive)
+#File=C:\vtn\VTN_QLTS_bc_0108.dmp
+#Log=C:\vtn\VTN_QLTS_bc_0108.log
+#File=C:\vtn\VTN_QLTS_bc_0108.dmp
+#Log=C:\vtn\VTN_QLTS_1110_0108.log
+File=D:\QLHOSO_121214.dmp
+Log=D:\QLHOSO_121214.log
+
+# What to include
+ROWS=Y
+INDEXES=Y
+Grants=Y
+Constraints=Y
+STATISTICS=NONE
+
+
+# Performance options
+#  COMPRESS is not file compression,
+#  it reorganises each table into one large extent
+COMPRESS=N
+Buffer=90000
+DIRECT=Y
+#Full = Y
+# How the export will run OWNER, TABLES or FULL?
+OWNER=QLHOSO
+#TABLES=t_accounts,t_account_balances
+ FULL=n

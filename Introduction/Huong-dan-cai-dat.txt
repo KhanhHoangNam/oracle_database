@@ -1,0 +1,42 @@
+﻿* Hướng dẫn cài đặt môi trường làm việc:
+--------------------------------------------------
+Wifi: Stanford201, Stanford New, mật khẩu: Stanford@201
+
+Wifi: Stanford 206, mật khẩu: Stanford@206
+
+Wifi: stanford.com.vn,mật khẩu: Stanford@2012
+
+Stanford JSC: Stanford@072012
+
+*Địa chỉ IP server của Stanford: (Nhấn phím Windows + R)
+\\192.168.1.200
+
+Tài khoản: hocvien
+Mật khẩu: 123456
+*************************************************
+*Thư mục lấy bộ cài:
+\\192.168.1.200\Programs\Oracle
+
++ Oracle 12c setup: Bộ cài Hệ quản trị cơ sở dữ liệu 12c
+	winx64_12102_database_1of2.zip
+	winx64_12102_database_2of2.zip
++ SQL Developer: Công cụ quản trị cơ sở dữ liệu Oracle
++ SVN: Công cụ quản lý tài nguyên, source code
++ Notepad++
+
+*Địa chỉ lấy tài liệu và source code:
+https://192.168.1.200:8443/svn/ORA032001CB/
+https://stanfordpro.ddns.net:8443/svn/ORA032001CB/
+
+* Địa chỉ nhóm FB của lớp:
+https://www.facebook.com/groups/545268392769025/
+
+* Thông tin về Oracle Server trên máy chủ của Stanford:
+
+user: sys
+pass: Stanford
+Host name: 192.168.1.200
+Domain: stanfordpro.ddns.net(Connect khi không sử dụng mạng lan)
+Port: 1521
+Role: SYSDBA
+SID: ORA0320AD
